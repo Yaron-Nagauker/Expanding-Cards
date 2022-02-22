@@ -78,28 +78,28 @@ body{
 }
 
 #city {
-    background-image: url('/img/pedro-lastra-Nyvq2juw4_o-unsplash.jpg');
+    background-image: url('https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1888&q=80');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #forest {
-    background-image: url('./img/trevor-pye-KyaoT3NKN2s-unsplash.jpg');
+    background-image: url('https://images.unsplash.com/photo-1591213595166-82c13a93b1c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #desert {
-    background-image: url('./img/wolfgang-hasselmann-pVr6wvUneMk-unsplash.jpg');
+    background-image: url('https://images.unsplash.com/photo-1542401886-65d6c61db217?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #snow {
-    background-image: url('/img/alberto-restifo-cFplR9ZGnAk-unsplash.jpg');
+    background-image: url('https://images.unsplash.com/photo-1418985991508-e47386d96a71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
