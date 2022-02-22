@@ -1,0 +1,131 @@
+/* Roboto font - google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{box-sizing: border-box;}
+
+body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;                
+    overflow: hidden;                      
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width:60vw;
+    height: 60vh;
+    justify-content: center;
+}
+
+.panel{
+    height: auto;
+    width: 8vh;
+    color: white;
+    display: flex;
+    align-items: flex-start;  /**/
+    justify-content: center;
+    cursor: pointer;
+    margin: 2px;
+    transition: width 700ms ease-in-out;
+}    
+
+.panel:hover{
+    width: 12vh;
+}
+
+.panel .content{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: Roboto, sans-serif;
+    position: absolute;
+    margin-left: 7px;
+    opacity: 0;
+    transition: opacity 800ms ease-in-out ;
+    outline: none;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.199);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 9px;
+    text-align: center;
+    width: 290px;
+}
+
+.panel .content p{
+    font-size: 12px;
+    text-align: center;
+    margin: 6px;
+}
+
+.panel .content h4{
+    margin: 12px;
+}
+
+
+.panel.active {
+    width: 80vw;
+}
+
+.panel.active .content{
+    opacity: 1;
+    
+}
+
+#city {
+    background-image: url('/img/pedro-lastra-Nyvq2juw4_o-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#forest {
+    background-image: url('./img/trevor-pye-KyaoT3NKN2s-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#desert {
+    background-image: url('./img/wolfgang-hasselmann-pVr6wvUneMk-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#snow {
+    background-image: url('/img/alberto-restifo-cFplR9ZGnAk-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+@media(max-width: 480px) {
+    .container{
+        width: 90vw;
+        height: 70vh;
+        margin: 10px;
+    }
+    .panel:nth-last-of-type(3),:nth-last-of-type(5) {
+        display: none;
+    }
+    .panel{
+        width: 18px;
+    }
+    .panel .content{
+        width: 180px;
+        font-size: 18px;
+
+    }
+    body{
+        overflow: none;
+    }
+    
+}
